@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ControllerApp">
  <head>
    <title>AngularJS Tutorials</title>
    <link rel="stylesheet" href="vendor/foundation.min.css">
@@ -7,18 +7,18 @@
  </head>
  <body>
 
-<div ng-app="">
+<div>
   <input type="text" ng-model="data.message">
   <h1>{{ data.message }}</h1>
 
   <div ng-controller="FirstCtrl">
-     <input type="text" ng-model="data.message">
-  <h1>{{ data.message }}</h1>
+     <input type="text" ng-model="data.message2">
+  <h1>{{ data.message2 }}</h1>
   </div>
 
   <div ng-controller="SecondCtrl">
-  <input type="text" ng-model="data.message">
-  <h1>{{ data.message }}</h1>
+  <input type="text" ng-model="data.message3">
+  <h1>{{ data.message3 }}</h1>
   </div>
   </div>
 
